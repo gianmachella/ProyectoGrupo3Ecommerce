@@ -39,8 +39,8 @@ Route::get('/registro', function () {
     return view('registro');
 });
 
-Route::get('/registroSatisfactorio', function () {
-    return view('registroSatisfactorio');
+Route::post('/registroExitoso', function () {
+    return view('registroExitoso');
 });
 
 Route::get('/carrito', function () {

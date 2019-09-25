@@ -2,27 +2,16 @@
 @include ('head')
 <body>
   <div class="container">
-    <div class="cont-gallery ml-auto mr-auto">
-       <div class="row">
-          <div class="col-4">
-            <div class="card1 text-center">
-              <p><img src="img/logo.png" alt=""   class="logo-productos"></p>
-            </div>
-          </div>
-        </div>
-    </div>
-  </div>
-  <div class="container">
     <div class="cont-productos ml-auto mr-auto">
       <div class="row">
           <div class="col-md-4">
             <div class="card text-center">
-              <img src="img/product1.jpg" alt=""class="img-prod">
+              <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
               <div class="card-body">
                 <h5 class="card-title">Conos</h5>
                 <p class="card-text">Conos de chocolate con dulce de leche y mas...
                   <h3>$30 c/u</h3>
-                <button href="#modal1" class="btn btn-primary btn-lg btn-block" type="submit" name="button" data-toggle="modal">Comprar</button>
+                <button href="#modal1" class="btn btn-primary btn-lg btn-block" type="submit" name="button" data-toggle="modal">Miralo</button>
               </div>
             </div>
           </div>
@@ -30,7 +19,7 @@
             <div class="modal-de-compra">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
               <div class="container1">
-                <img src="img/product1.jpg" alt="">
+                <img src="img/productos/product1.jpg" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </div>
               <div class="container2">
@@ -53,12 +42,12 @@
           <br>
           <div class="col-md-4">
               <div class="card text-center">
-                <img src="img/product2.jpg" alt=""class="img-prod">
+                <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                 <div class="card-body">
                   <h5 class="card-title">CupCake-Fondat</h5>
                   <p class="card-text">Cupcake rellenos o sin relleno, personalizados con fondant.
                     <h3>$30 p/dna</h3>
-                  <button href="#modal2" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit" name="button">Comprar</button>
+                  <button href="#modal2" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit" name="button">Miralo</button>
                 </div>
               </div>
            </div>
@@ -66,7 +55,7 @@
              <div class="modal-de-compra">
                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                <div class="container1">
-                 <img src="img/product2.jpg" alt="">
+                 <img src="img/productos/product2.jpg" alt="">
                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                </div>
                <div class="container2">
@@ -89,12 +78,12 @@
 
            <div class="col-md-4">
               <div class="card text-center">
-                <img src="img/product3.jpg" alt=""class="img-prod">
+                <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                 <div class="card-body">
                   <h5 class="card-title">Donas</h5>
                   <p class="card-text">Donas con topping y/o rellenas de dulce de leche, chocolates,mas..
                   <h3>$30 p/dna</h3>
-                  <button href="#modal3" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit" name="button">Comprar</button>
+                  <button href="#modal3" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit" name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -102,7 +91,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product3.jpg" alt="">
+                  <img src="img/productos/product3.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -123,11 +112,11 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product4.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Cupcake Crema</h5>
                     <p class="card-text">Cupcake rellenos o sin relleno, personalizados con crema. <br>$30 p/dna</h3>
-                    <button href="#modal4" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal4" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -135,7 +124,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product4.jpg" alt="">
+                  <img src="img/productos/product4.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -157,12 +146,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product5.jpg" alt="" class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt="" class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Brownie</h5>
                     <p class="card-text">Brownie con topping de dulce de leche y chispas de chocolate.
                     <h3>$30 p/dna</h3>
-                    <button href="#modal5" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal5" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -170,7 +159,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product5.jpg" alt="">
+                  <img src="img/productos/product5.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -192,12 +181,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product6.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">ChesCake</h5>
                     <p class="card-text">Torta de queso con topping de dulce de leche o chocolate o fresa.
                     <h3>$30 p/dna</h3>
-                    <button href="#modal6" data-toggle="modal"class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal6" data-toggle="modal"class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -205,7 +194,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product6.jpg" alt="">
+                  <img src="img/productos/product6.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -227,12 +216,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product7.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Arrollado</h5>
                     <p class="card-text">Arrollado relleno de crema y frutas (Fresa/Durazno)
                     <h3>$30 p/dna</h3>
-                    <button href="#modal7" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal7" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -240,7 +229,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product7.jpg" alt="">
+                  <img src="img/productos/product7.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -262,12 +251,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product8.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Budin</h5>
                     <p class="card-text">Budin marmoleado relleno de dulce de leche y topping de chocolate.
                     <h3>$30 p/dna</h3>
-                    <button href="#modal8" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal8" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -275,7 +264,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product8.jpg" alt="">
+                  <img src="img/productos/product8.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -297,12 +286,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product9.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Profiterol</h5>
                     <p class="card-text">Bombitas rellenas de diferentes cremas.
                     <h3>$30 p/dna</h3>
-                    <button href="#modal9" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal9" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -310,7 +299,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product9.jpg" alt="">
+                  <img src="img/productos/product9.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -332,12 +321,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product10.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Tarta de frutos Secos</h5>
                     <p class="card-text">Tarta rellena frutos secos y topping de chocolate blanco y negro.
                     <h3>$30 p/dna</h3>
-                    <button href="#modal10" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal10" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -345,7 +334,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product10.jpg" alt="">
+                  <img src="img/productos/product10.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -367,12 +356,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product11.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Roles de Canela</h5>
                     <p class="card-text">Roles rellenos de canela y azucar con topping a gusto.
                     <h3>$30 p/dna</h3>
-                    <button href="#modal11" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal11" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -380,7 +369,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product11.jpg" alt="">
+                  <img src="img/productos/product11.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">
@@ -402,12 +391,12 @@
 
           <div class="col-md-4">
                 <div class="card text-center">
-                  <img src="img/product12.jpg" alt=""class="img-prod">
+                  <img src="img/productos/bgcaja.jpg" alt=""class="img-prod">
                   <div class="card-body">
                     <h5 class="card-title">Tortas Decoradas</h5>
                     <p class="card-text">Tortas personalizadas con los sabores que gustes..
                     <h3>$30 p/dna</h3>
-                    <button href="#modal12" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Comprar</button>
+                    <button href="#modal12" data-toggle="modal" class="btn btn-primary btn-lg btn-block" type="submit"name="button">Miralo</button>
                 </div>
               </div>
             </div>
@@ -415,7 +404,7 @@
               <div class="modal-de-compra">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
                 <div class="container1">
-                  <img src="img/product12.jpg" alt="">
+                  <img src="img/productos/product12.jpg" alt="">
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div class="container2">

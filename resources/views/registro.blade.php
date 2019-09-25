@@ -3,7 +3,7 @@
 <body>
   <div class="container">
     <div class="contenedor">
-        <form class="login" action="formulario.html" method="post">
+        <form class="login" action="{{'registroExitoso'}}" method="post">
           <div class="">
             <img src="img/logo.png" alt="" class="logohistoria">
           </div>

@@ -187,19 +187,17 @@ font-family: 'courgette';
 /* productos*/
 
 /*separacion de las primeras imagenes*/
-.cont-gallery{
-  margin-top: 125px;
-  width: 100%;
-}
 
 .card {
+  margin-top: 100px;
     position: relative;
+    padding-top: 0px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
-    height: 100%;
+    height: 400px;
     word-wrap: break-word;
     overflow: hidden;
     background-color: #fff;
@@ -209,6 +207,18 @@ font-family: 'courgette';
     -webkit-box-shadow: -4px 5px 6px 1px rgba(0,0,0,0.36);
     -moz-box-shadow: -4px 5px 6px 1px rgba(0,0,0,0.36);
     box-shadow: -4px 5px 6px 1px rgba(0,0,0,0.36);
+    animation: 1s prod none;
+}
+
+@keyframes prod {
+  0%,50%{
+    opacity: 0;
+    margin-right: 210px;
+  }
+}
+
+.card-title{
+  padding-top: 100px;
 }
 
 @media (max-width:800px){
@@ -219,13 +229,6 @@ font-family: 'courgette';
     margin-top: 100px;
 
   }
-}
-
-
-.logo-productos{
-  justify-content: center;
-  width: 200px;
-  height: 135px;
 }
 .col-md-4{
   padding-bottom: 10px;
@@ -240,19 +243,35 @@ font-family: 'courgette';
   }
 
 .btn{
-  background-color: pink;
+  background-color: #ea8af8;
   border-color: pink;
   border-radius: 70px;
   font-weight: bold;
 }
 
+.img-prod{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0.5;
+}
+.card-body{
+  position: absolute;
+}
 /*Prductos>>>>Modal<<<<<*/
+#caja-productos{
+  margin-top: 100px;
+}
+
 
 .modal-de-compra{
   font-family: 'roboto', cursive;
   max-width: 60%;
   max-height: 80%;
-  background-color: #f8fafb;
+  background-image: url('../img/productos/bgcajalogin.jpg');
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -403,7 +422,7 @@ article p{
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: white;
+  background-image: url('../img/productos/bgcajalogin.jpg');
   margin-left: 500px;
   animation: 1s login none;
 }
@@ -435,7 +454,7 @@ h2{
   margin-bottom: 12px;
   line-height: 40px;
   flex-direction: column;
-  background-color: white;
+  background-color: #87b7cb;
 }
 
 .cajatext{
@@ -458,4 +477,16 @@ input::placeholder{
   margin-left: auto;
   margin-right: auto;
 
+}
+
+.reg-exi{
+    font-family: 'courgette';
+    margin-top: 50px;
+    margin-left: 400px;
+    padding-top: 100px;
+    width: 800px;
+    height: 850px;
+    text-align: justify;
+    animation: 2s textfaqs none;
+  }
 }
