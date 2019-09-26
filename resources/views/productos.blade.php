@@ -1,6 +1,6 @@
 @include ('menu')
 @include ('head')
-<body>
+<body class="productos">
   <div class="container">
     <div class="cont-productos ml-auto mr-auto">
       <div class="row">

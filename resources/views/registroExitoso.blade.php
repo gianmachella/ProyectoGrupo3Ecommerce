@@ -1,9 +1,9 @@
 @include ('menu')
 @include ('head')
 <body>
-  
+
   <div class="reg-exi">
-    <h1> Genial    <br>Tu registro se realizó con éxito.</h1>
+    <h1> Genial   <br>Tu registro se realizó con éxito.</h1>
     <h4>¡¡¡Puedes continuar navegando dulcemente!!!</h4>
   </div>
 

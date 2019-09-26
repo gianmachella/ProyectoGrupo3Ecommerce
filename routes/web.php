@@ -31,14 +31,6 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/registro', function () {
-    return view('registro');
-});
-
 Route::post('/registroExitoso', function () {
     return view('registroExitoso');
 });
@@ -50,3 +42,7 @@ Route::get('/carrito', function () {
 Route::get('/cargaProductos', function () {
     return view('cargaProductos');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

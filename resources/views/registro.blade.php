@@ -9,16 +9,16 @@
           </div>
           <h2>Registrarme</h2>
           <div class="campo">
-            <input class="login-campos" type="text" name="nombre" value="" placeholder="Decinos tu Nombre" required><br>
+            <input class="login-campos" type="text" name="name" value="" placeholder="Decinos tu Nombre" required><br>
           </div>
           <div class="campo">
-            <input class="login-campos" type="text" name="apellido" value="" placeholder="Decinos tu Apellido" required><br>
+            <input class="login-campos" type="text" name="last_name" value="" placeholder="Decinos tu Apellido" required><br>
           </div>
           <div class="campo">
             <input class="login-campos" type="email" name="email" value="" placeholder="Decinos tu e-mail" required><br>
           </div>
           <div class="campo">
-            <input class="login-campos" type="text" name="email" value="" placeholder="Decinos tu Numero de Telefono" required><br>
+            <input class="login-campos" type="text" name="phone" value="" placeholder="Decinos tu Numero de Telefono" required><br>
           </div>
           <div class="campo">
             <input class="login-campos" type="password" name="password" value="" placeholder="Una contraseña que no te olvides" required><br>
@@ -27,7 +27,7 @@
             <input class="login-campos" type="password" name="password" value="" placeholder="Ahora repetí contraseña" required><br>
           </div>
           <div class="campo" >
-              <span>Dejanos tu foto:</span><input class="login-campos" name="uploadedfile" type="file" value="" placeholder="" />
+              <span>Dejanos tu foto:</span><input class="login-campos" name="photo" type="file" value="" placeholder="" />
           </div>
           <p class="texto">¿Ya tenés una cuenta? <a href="{{'login'}}">Loguearme</a></p>
           <button class="btn" type="submit" name="button">Enviar</button>

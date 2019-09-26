@@ -5,7 +5,7 @@
         </button>
         <!--iconos dentro del menu desplegable-->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <img src="img/logo.png" alt="marco" class="logo-menu">
+          <a href="{{'inicio'}}"><img src="img/logo.png" alt="marco" class="logo-menu"></a>
           <ul class="navbar-nav mr-auto mt-4 mt-lg-auto">
             <li class="nav-item active">
               <a class="navbar-brand" href="{{'inicio'}}">Home <span class="sr-only"></a>
