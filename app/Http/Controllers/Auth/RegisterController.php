@@ -28,7 +28,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/registroExitoso';
 
     /**
      * Create a new controller instance.
@@ -65,13 +65,15 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $photoPath = $data['photo']->store('public/userPhotos');
+
         return User::create([
             'name' => $data['name'],
             'last_name' => $data['last_name'],
             'email' => $data['email'],
             'phone' => $data['phone'],
             'password' => Hash::make($data['password']),
-            'photo' => $data['photo'],
+            'photo' => $photoPath,
         ]);
     }
 

@@ -31,7 +31,7 @@ Route::get('/contacto', function () {
     return view('contacto');
 });
 
-Route::post('/registroExitoso', function () {
+Route::get('/registroExitoso', function () {
     return view('registroExitoso');
 });
 

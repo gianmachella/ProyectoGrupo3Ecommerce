@@ -29,8 +29,22 @@
           <a class="navbar-brand" href="https://www.facebook.com/Delicias-Nana-152602465221118/?ref=br_rs"><img src="img/faceicon.png" alt="" class="nav-icon1"></a>
           <a class="navbar-brand" href="https://www.instagram.com/deliciasnana_buenosaires/?hl=es-la"><img src="img/insticon.png" alt="" class="nav-icon1"></a>
           <a class="navbar-brand" href="#"><img src="img/cesta.png" alt="" class="nav-icon1"></a>
-          <span class="text-login"><a href="{{'login'}}">Login/</a><a href="{{'register'}}">Registro</a></span>
-          <a class="navbar-brand" href="{{'login'}}"><img src="img/login.png" alt="" alt="" class="nav-icon1"></a>
+          @auth
+             <span class="navbar-brand">Hola {{{ Auth::user()->name}}}</span>
+             <a class="navbar-brand"><img src="{{Storage::url(Auth::user()->photo)}}" alt="" alt="" class="nav-icon1"></a>
+             <a class="navbar-brand" href="{{ route('logout') }}"
+                onclick="event.preventDefault();
+                              document.getElementById('logout-form').submit();">
+                 {{ __('Logout') }}
+             </a>
+             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                 @csrf
+             </form>
+          @endauth
+          @guest
+             <span class="text-login"><a href="{{'login'}}">Login/</a><a href="{{'register'}}">Registro</a></span>
+             <a class="navbar-brand"><img src="img/login.png" alt="" alt="" class="nav-icon1"></a>
+          @endguest
         </div>
       </nav>
   </header>

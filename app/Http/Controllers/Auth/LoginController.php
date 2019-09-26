@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -25,7 +26,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/inicio';
 
     /**
      * Create a new controller instance.
@@ -40,5 +41,15 @@ class LoginController extends Controller
     public function showLoginForm()
     {
         return view('login');
+    }
+
+    protected function authenticated(Request $request, $user)
+    {
+      return redirect('/inicio');
+    }
+
+    protected function loggedOut(Request $request)
+    {
+      return redirect('/inicio');
     }
 }
