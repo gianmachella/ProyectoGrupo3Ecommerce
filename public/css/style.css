@@ -463,6 +463,9 @@ h2{
   width: 100%;
   margin-bottom: 25px;
 }
+.text-login a{
+  text-decoration: none;
+}
 
 input::placeholder{
   font-family: 'courgette';
