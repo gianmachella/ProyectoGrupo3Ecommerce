@@ -29,7 +29,7 @@
     <main>
         @yield('content')
     </main>
-
+    <br><br><br><br><br>
     <footer>
       @include('layouts.footer')
     </footer>

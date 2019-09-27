@@ -23,9 +23,7 @@ Route::get('/faqs', function () {
     return view('faqs');
 });
 
-Route::get('/productos', function () {
-    return view('productos');
-});
+Route::get('/productos', 'ProductsController@index');
 
 Route::get('/contacto', function () {
     return view('contacto');
@@ -39,10 +37,11 @@ Route::get('/carrito', function () {
     return view('carrito');
 });
 
-Route::get('/cargaProductos', function () {
-    return view('cargaProductos');
-});
-
 Auth::routes();
+
+Route::get('/cargaDeProductos', 'ProductsController@create');
+Route::post('/productos', 'ProductsController@store');
+Route::patch('/productos', 'ProductsController@update');
+
 
 Route::get('/home', 'HomeController@index')->name('home');

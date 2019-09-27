@@ -1,56 +1,46 @@
-/*general*/
-*{
+    /*---------------------------------*/
+    /*General*/
+    /*---------------------------------*/
+    *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-/*---------------------------------*/
-/*header general*/
-/*---------------------------------*/
-h1,h2,h3{font-family: 'courgette';}
-p{font-family: 'roboto';}
-nav{background-color: white;}
+    }
+    /*---------------------------------*/
+    /*header general*/
+    /*---------------------------------*/
+    h1,h2,h3{font-family: 'courgette';}
+    p{font-family: 'roboto';}
+    nav{background-color: white;}
 
-.nav-icon1{
+    .nav-icon1{
     /*tamano de los iconos/imagenes de la barra*/
     width: 40px;
     height: 40px;
     border-radius: 45px;
-  }
-.text-login{
-      font-family: 'courgette';
-}
-  .navbar-brand {
+    }
+    .text-login{font-family: 'courgette';}
+    .navbar-brand {
     /*tamano de letra,tipo de letra y separacion de los elementos de la barra*/
     font-size: 1.2rem;
     font-family: 'courgette';
     color:white;
-  }
-  .logo-menu{
-    width: 60px;
-  }
-    .nav-item{
-      /*separacion de los items que estan en la barra izquierda*/
-      padding-left: 20px;
     }
+   .logo-menu{width: 60px;}
+   /*separacion de los items que estan en la barra izquierda*/
+    .nav-item{padding-left: 20px;}
 
-    /*---------------------------------*/
-    /*footer general*/
-    /*---------------------------------*/
+/*---------------------------------*/
+/*footer general*/
+/*---------------------------------*/
     footer{
         background-color:#E3F2FD;
         width: 100%;
+    }
+    /*tamano de la imagen del footer*/
+    .logo-footer{width: 250px;}
 
-    }
-    .logo-footer{
-        /*tamano de la imagen del footer*/
-        width: 250px;
-    }
-    @media (max-width:600px){
-      .logo-footer{
-        width: 200px;
-      }
-    }
+    @media (max-width:600px){.logo-footer{width: 200px;}}
     .text-muted{
         font-family: 'courgette';
         font-size: 1rem;
@@ -66,58 +56,56 @@ nav{background-color: white;}
     }
 
     /*------------------------------------
-body del Home
-/*----------------------------------------*/
-body{
+    Body del Home
+    /*----------------------------------------*/
+    body{
     background-image: url("../img/backgrounds/back12.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 0,
-}
-.cont-central{
+    }
+    .cont-central{
     width: 100%;
     height: 600px;
     padding-left: 0;
     padding-right: 0;
-  }
+    }
 
-  .caja{
+    .caja{
     width: 100%;
     display: flex;
     justify-content: center;
       margin-left: 100px;
     animation: caja 2s none;
-  }
-  @keyframes caja {
-    0%,50%{
-      opacity: 0;
-      margin-top: 210px;
     }
+    @keyframes caja {
+      0%,50%{
+        opacity: 0;
+        margin-top: 210px;
+      }
+    }
+
+    #caja, .bienvenida{
+     position: absolute;
+     width: 450px;
+     height: 350px;
+     margin-top: 210px;
+    }
+    .card-text{font-family: 'courgette';}
+    .bienvenida p{
+      margin-top: 10px;
+      padding: 80px;
+      font-family: 'courgette';
+      font-size: 1.1rem;
+      text-align: center;
   }
 
-  #caja, .bienvenida{
+    .logoimg{
     position: absolute;
-    width: 450px;
-    height: 350px;
-    margin-top: 210px;
-  }
-.card-text{
-   font-family: 'courgette';
-}
-.bienvenida p{
-  margin-top: 10px;
-  padding: 80px;
-  font-family: 'courgette';
-  font-size: 1.1rem;
-  text-align: center;
-  }
-
-  .logoimg{
-  position: absolute;
-  width: 320px;
-  margin-top: 90px;
-  }
+    width: 320px;
+    margin-top: 90px;
+    }
 
   .cont-secundario{
     width: 100%;
@@ -126,25 +114,14 @@ body{
     padding-bottom: 25px;
   }
   /******************%****/
-.imagen-bottom{
-    width: 100%;
-}
+  .imagen-bottom{width: 100%;}
+   /*para que desaparesca en modo mobile****************/
+   @media (max-width:600px){.banner{display:none;}}
 
-@media (max-width:600px){
-	.banner{
-		display:none;
-    /*para que desaparesca en modo mobile*****************%****/
-  }
-}
-
-@media (max-width:1800px){
-	.banner{
-		margin-bottom: 25px;
-  }
-}
- /*------------------------------------
-body de historia
-/*----------------------------------------*/
+   @media (max-width:1800px){.banner{margin-bottom: 25px;}}
+   /*------------------------------------
+   Body de historia
+   /*----------------------------------------*/
 .cont-central-historia{
     height: 700px;
 }
@@ -186,8 +163,6 @@ font-family: 'courgette';
 /*-------------------------------------*/
 /* productos*/
 
-/*separacion de las primeras imagenes*/
-
 .card {
     margin-top: 100px;
     position: relative;
@@ -197,7 +172,6 @@ font-family: 'courgette';
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
-    height: 100%;
     word-wrap: break-word;
     overflow: hidden;
     background-color: #fff;
@@ -222,13 +196,8 @@ font-family: 'courgette';
 }
 
 @media (max-width:800px){
-	.cont-gallery{
-		display:none;
-  }
-  .cont-productos{
-    margin-top: 100px;
-
-  }
+	.cont-gallery{display:none;}
+  .cont-productos{margin-top: 100px;}
 }
 .col-md-4{
   padding-bottom: 10px;
@@ -259,10 +228,8 @@ font-family: 'courgette';
 }
 
 /*Prductos>>>>Modal<<<<<*/
-#caja-productos{
-  margin-top: 100px;
-}
 
+#caja-productos{margin-top: 100px;}
 
 .modal-de-compra{
   font-family: 'roboto', cursive;
@@ -324,7 +291,7 @@ font-family: 'courgette';
   justify-content: space-around;
   margin:0;
 }
-.modal-de-compra img{
+.modal-de-compra .photo-modal{
   height: 80%;
   width: 95%;
   left: 10px;
