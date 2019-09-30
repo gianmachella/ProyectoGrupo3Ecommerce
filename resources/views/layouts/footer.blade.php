@@ -13,9 +13,9 @@
       <div class="col-6 col-md">
         <h5>Enlaces de interes</h5>
         <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="login.php">login</a></li>
-          <li><a class="text-muted" href="registro.php">Crear una cuenta</a></li>
-          <li><a class="text-muted" href="faqs.php">FAQs</a></li>
-          <li><a class="text-muted" href="contacto.php">Contactos</a></li>
+          <li><a class="text-muted" href="{{'login'}}">login</a></li>
+          <li><a class="text-muted" href="{{'register'}}">Crear una cuenta</a></li>
+          <li><a class="text-muted" href="{{'faqs'}}">FAQs</a></li>
+          <li><a class="text-muted" href="{{'contacto'}}">Contactos</a></li>
         </ul>
   </footer>
