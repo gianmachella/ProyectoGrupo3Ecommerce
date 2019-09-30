@@ -26,7 +26,7 @@
               <div class="container2">
                 <h3>{{$producto->name}}</h3>
                 <hr style="border: 1px inset;width:90%;">
-                <p>{{$producto->description1}}</p>
+                <p class="description1">{{$producto->description1}}</p>
                 <hr style="border: 1px inset;width:90%;">
                 <h4>${{$producto->price}}  c/u</h4>
                 <span>Cantidad <input class="contador" type="number" name="numero" value="1" min="0" max="50" step="1"></span>
