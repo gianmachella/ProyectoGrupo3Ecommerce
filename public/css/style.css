@@ -448,7 +448,29 @@ input::placeholder{
     width: 800px;
     height: 850px;
     text-align: justify;
-    animation: 2s textfaqs none;
+    animation: 2s register none;
     color: white;
+  }
+}
+@keyframes register {
+  0%,10%{
+    opacity: 0;
+  }
+}
+
+.carrito{
+    font-family: 'courgette';
+    margin-left: 700px;
+    padding-top: 200px;
+    width: 800px;
+    height: 850px;
+    text-align: justify;
+    animation: 2s carrito none;
+    color: white;
+  }
+}
+@keyframes carrito {
+  0%,10%{
+    opacity: 0;
   }
 }
