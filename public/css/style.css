@@ -10,7 +10,6 @@
     /*header general*/
     /*---------------------------------*/
     h1,h2,h3{font-family: 'courgette';}
-    p{font-family: 'roboto';}
     nav{background-color: white;}
 
     .nav-icon1{
@@ -201,7 +200,7 @@ font-family: 'courgette';
 }
 .col-md-4{
   padding-bottom: 10px;
-  font-family: 'roboto', cursive;
+  font-family: 'courgette';
   font-size: 1.2rem;
 }
 @media (max-width:800px){
@@ -231,8 +230,8 @@ font-family: 'courgette';
 
 #caja-productos{margin-top: 100px;}
 
-.modal-de-compra{
-  font-family: 'roboto', cursive;
+.modal-de-compra {
+  font-family: 'courgette';
   max-width: 60%;
   max-height: 80%;
   background-image: url('../img/productos/bgcajalogin.jpg');
