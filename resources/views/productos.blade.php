@@ -11,16 +11,16 @@
                 <h5 class="card-title">{{$producto->name}}</h5>
                 <p class="card-text">{{$producto->description1}}</p>
                   <h3><span>$</span>{{$producto->price}}</h3>
-                <button href="#modal" class="btn btn-primary btn-lg btn-block" type="submit" name="button" data-toggle="modal">Miralo</button>
+                <button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#producto-{{ $producto->id }}">Miralo</button>
               </div>
             </div>
           </div>
           <!--Modal-->
-          <div class="modal" id="modal" >
+          <div class="modal" id="producto-{{ $producto->id }}" >
             <div class="modal-de-compra">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Close">&times;</button>
               <div class="container1">
-                <img src='{{$producto->photo}}' alt="">
+                <img src="{{ Storage::url($producto->photo) }}" alt="">
                 <p>{{$producto->description2}}</p>
               </div>
               <div class="container2">

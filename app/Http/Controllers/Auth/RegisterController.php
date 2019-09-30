@@ -71,10 +71,16 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'last_name' => $data['last_name'],
             'email' => $data['email'],
+            'role_id'=> '1',
+
             'phone' => $data['phone'],
             'password' => Hash::make($data['password']),
             'photo' => $photoPath,
         ]);
+        $user
+        ->roles()
+        ->attach(Role::where('name', 'user')->first());
+    return $user;
     }
 
     public function showRegistrationForm()
