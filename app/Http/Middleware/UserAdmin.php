@@ -19,7 +19,7 @@ class UserAdmin
           return redirect('/login')->with('error', 'Debes iniciar secion primero');
         }
 
-        if (!(\auth()->user()->role_id == 1)) {
+        if (auth()->user()->role_id != 2) {
           return redirect('/inicio')->with('error', 'No tienes los permisos necesarios para ingresar');
         }
 

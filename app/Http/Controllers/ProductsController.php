@@ -57,9 +57,9 @@ class ProductsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show(Producto $producto)
-    {
-        //
-    }
+      {
+    
+      }
 
     /**
      * Show the form for editing the specified resource.
@@ -94,4 +94,9 @@ class ProductsController extends Controller
     {
         //
     }
+    public function listadoAdmin(Producto $producto)
+      {
+        $Productos = Product::orderBy('id', 'ASC')->paginate(8);
+        return view ('listadoDeProductos', ['productos'=>$Productos]);
+      }
 }

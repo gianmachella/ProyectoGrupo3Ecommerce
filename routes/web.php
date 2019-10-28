@@ -48,4 +48,4 @@ Route::get('/admin', function () {
 })->Middleware('userAdmin');
 
 Route::get('/listadoDeUsuarios', 'UserController@index')->Middleware('userAdmin');
-Route::get('/listadoDeProductos', 'ProductsController@index')->Middleware('userAdmin');
+Route::get('/listadoDeProductos', 'ProductsController@listadoAdmin')->Middleware('userAdmin');
