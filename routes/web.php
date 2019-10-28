@@ -39,9 +39,13 @@ Route::get('/carrito', function () {
 
 Auth::routes();
 
-Route::get('/cargaDeProductos', 'ProductsController@create');
-Route::post('/productos', 'ProductsController@store');
-Route::patch('/productos', 'ProductsController@update');
+Route::get('/cargaDeProductos', 'ProductsController@create')->Middleware('userAdmin');
+Route::post('/productos', 'ProductsController@store')->Middleware('userAdmin');
+Route::patch('/productos', 'ProductsController@update')->Middleware('userAdmin');
 
+Route::get('/admin', function () {
+    return view('admin');
+})->Middleware('userAdmin');
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/listadoDeUsuarios', 'UserController@index')->Middleware('userAdmin');
+Route::get('/listadoDeProductos', 'ProductsController@index')->Middleware('userAdmin');

@@ -1,5 +1,9 @@
 @extends('layouts.deliciasNana')
 @section('content')
+
+
+      <p class="card-text-error">{{session('error')}}</p>
+
     <div class="container">
       <div class="cont-central">
         <div class="mensaje-bienvenida">
