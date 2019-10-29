@@ -22,9 +22,13 @@
             <li class="nav-item active">
               <a class="navbar-brand" href="{{'contacto'}}">Contactos <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            @auth
+              @if (Auth::user()->role_id == 2)
+              <li class="nav-item active">
               <a class="navbar-brand" href="{{'admin'}}">Admin <span class="sr-only"></a>
-            </li>
+              </li>
+              @endif
+            @endauth
           </ul>
         </div>
         <!--iconos de la izquierda no desplegable-->

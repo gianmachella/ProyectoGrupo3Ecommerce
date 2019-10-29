@@ -11,11 +11,11 @@
                 <tr>
                   <th scope="col"> </th>
                   <th scope="col">ID</th>
-                  <th scope="col">Role</th>
                   <th scope="col">Nombre</th>
-                  <th scope="col">Apellido</th>
-                  <th scope="col">Email</th>
-                  <th scope="col">Teléfono</th>
+                  <th scope="col">Descrición 1</th>
+                  <th scope="col">Descrición 2</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Stock</th>
                 </tr>
               </thead>
               <tbody>

@@ -35,7 +35,7 @@ Route::get('/registroExitoso', function () {
 
 Route::get('/carrito', function () {
     return view('carrito');
-});
+})->Middleware('userGuest');
 
 Auth::routes();
 

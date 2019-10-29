@@ -58,7 +58,7 @@ class ProductsController extends Controller
      */
     public function show(Producto $producto)
       {
-    
+
       }
 
     /**
@@ -94,7 +94,7 @@ class ProductsController extends Controller
     {
         //
     }
-    public function listadoAdmin(Producto $producto)
+    public function listadoAdmin()
       {
         $Productos = Product::orderBy('id', 'ASC')->paginate(8);
         return view ('listadoDeProductos', ['productos'=>$Productos]);
